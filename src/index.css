@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(192, 87, 245, 0.329);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btu{
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  padding: 5px;
+}
+.haedBtu{
+  height: 90%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;  
+}
